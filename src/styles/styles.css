@@ -275,15 +275,13 @@ button a{
     }
     .card {
         font-size: 15px;
+        width: 200px; 
     }
 }
 
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
-    }
-    .card {
-        width: 200px; 
     }
 }
 

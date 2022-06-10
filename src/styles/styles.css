@@ -37,9 +37,12 @@ button {
     cursor: pointer;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 0px) and (max-width: 576px) {
     .container {
         max-width: 100%;
+    }
+    .menu li a{
+        padding: 0;
     }
 }
 

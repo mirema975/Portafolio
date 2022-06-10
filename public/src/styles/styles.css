@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: #191c32;
+    user-select: none;
+}
+
+
+.divider {
+    height: 5px;
+    width: 50px;
+    border-radius: 20px;
+    margin: 5px 0;
+    background-color: aqua;
+}
+
+.container {
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+button {
+    padding: 1em;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    .card {
+        width: 200px; 
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+
+.wrapper {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color:rgba(25,28,50, 0.7);
+    backdrop-filter: opacity(20%);
+    backdrop-filter: blur(5px);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+    align-items: baseline;
+
+}
+
+.brand h2{
+    font-size: 40px;
+    color: #fff;
+}
+
+.brand span {
+    font-size: 40px;
+    color: aqua;
+}
+
+.menu {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu li a:hover {
+    background-color: aqua;
+}
+
+a {
+    transition: .3s;
+    padding: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    color: #fff;
+    align-items: center;
+}
+
+.info-content h1 {
+    font-size: 50px;
+}
+
+.info-content span {
+    color: aqua;
+}
+
+.background-white {
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    background-color: #fff;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.about-info {
+    padding: 0 2em;
+}
+
+.about-info h2 {
+    font-size: 40px;
+}
+
+.about-info p {
+    padding: .5em 0;
+}
+
+.portafolio {
+    height: 100vh;
+    color: #fff;
+    display: grid;
+}
+
+.portafolio-heading {
+    padding: 8em 0 0 0;
+}
+
+.portafolio-heading h2 {
+    font-size: 40px;
+}
+
+.portafolio-container {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #202440;
+    border: 2px solid aqua;
+    box-shadow: 1px 3px 11px -1px aqua;
+}
+
+.card__title h2 {
+    user-select: none;
+}
+
+.card__projects-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.card__projects-links i {
+    font-size: 30px;
+    padding: 2.5px;
+}
+
+.card__projects-links i:hover {
+    color: aqua;
+    transition: .5s;
+    font-size: 35px;
+    padding: 0;
+}
+
+
+button a{
+    color: #191c32;
+}
+
+.footer {
+    height: 200px;
+    background-color: #fff;
+}
+
+.footer-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-content {
+ text-align: center;   
+ padding: 10px 0;
+}
+
+.footer-content h2 {
+    font-size: 40px;
+}
+
+.footer-content h5 {
+    font-size: 20px;
+}
+
+
+.social-networks {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-networks a {
+    padding: 0;
+}
+
+.social-networks a i {
+    font-size: 80px;
+    color: #191c32;
+    padding: 0 15px;
+}

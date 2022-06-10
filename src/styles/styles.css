@@ -39,6 +39,7 @@ button {
 
 .wrapper {
     height: 100vh;
+    min-height: 636px;
 }
 
 header {
@@ -119,6 +120,7 @@ a {
     display: grid;
     width: 100vw;
     height: 80vh;
+    min-height: 636px;
     background-color: #fff;
 }
 
@@ -148,6 +150,7 @@ a {
 
 .portafolio {
     height: 100vh;
+    min-height: 636px;
     color: #fff;
     display: grid;
 }
@@ -208,6 +211,7 @@ button a{
 
 .footer {
     height: 200px;
+    min-height: 200px;
     background-color: #fff;
 }
 

@@ -275,7 +275,8 @@ button a{
     }
     .card {
         font-size: 15px;
-        width: 200px; 
+        width: 250px;
+        height: 250px;
     }
 }
 

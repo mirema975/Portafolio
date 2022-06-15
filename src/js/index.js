@@ -9,7 +9,7 @@ function saltarA(id, tiempo) {
 
 async function getCard() {
 
-    const rawResponse = await fetch('http://190.138.132.45:8080/api/proyecto', {
+    const rawResponse = await fetch('https://190.138.132.45:8080/api/proyecto', {
         method: 'GET',
         headers: {
             'Accept': 'application/json',

@@ -10,6 +10,7 @@ function saltarA(id, tiempo) {
 async function getCard() {
 
     const rawResponse = await fetch('https://api.emamir.site:8443/api/proyecto', {
+        mode: 'no-cors',
         method: 'GET',
         headers: {
             'Accept': 'application/json',

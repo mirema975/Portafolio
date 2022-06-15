@@ -1,5 +1,6 @@
 window.onload = function() {
     getCard();
+    getCard();
 }
 
 function saltarA(id, tiempo) {

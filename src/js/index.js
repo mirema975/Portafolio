@@ -1,5 +1,6 @@
 window.onload = function() {
     getCard();
+    getCard();
 }
 
 function saltarA(id, tiempo) {
@@ -17,16 +18,7 @@ async function getCard() {
         },
     });
 
-    const rawResponse2 = await fetch('https://api.emamir.site:8443/api/proyecto', {
-        method: 'GET',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-    });
-
-
-    const proyectos = await rawResponse2.json();
+    const proyectos = await rawResponse.json();
 
     let HTMLParaAgregar = ''
 

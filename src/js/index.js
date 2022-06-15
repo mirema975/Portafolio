@@ -9,7 +9,7 @@ function saltarA(id, tiempo) {
 
 async function getCard() {
 
-    const rawResponse = await fetch('https://api.emanuelmiranda.com.ar:8443/api/proyecto', {
+    const rawResponse = await fetch('https://api.emamir.site:8443/api/proyecto', {
         method: 'GET',
         headers: {
             'Accept': 'application/json',
